@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<title>Адаптивный веб-сайт по недвижимости - VladislavWebDev</title>
+</head>
+
+<body>
+	<header class="header" id="header">
+		<nav class="nav container">
+			<a href="#" class="nav__logo">
+				GetHome <i class='bx bxs-home-alt-2'></i>
+			</a>
+			<div class="nav__menu">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#home" class="nav__link active-link">
+							<i class='bx bx-home-alt-2'></i>
+							<span>Главная</span>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#popular" class="nav__link">
+							<i class='bx bx-building-house'></i>
+							<span>Резиденции</span>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#value" class="nav__link">
+							<i class='bx bx-award'></i>
+							<span>Ценности</span>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#contact" class="nav__link">
+							<i class='bx bx-phone'></i>
+							<span>Контакты</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="button nav__button">
+				Подписывайся
+			</a>
+		</nav>
+	</header>
+	<main class="main">
+		<section class="home section" id="home">
+			<div class="home__container container grid">
+				<div class="home__data">
+					<h1 class="home__title">
+						Найти <br> Подходящую <br> Недвижимость
+					</h1>
+					<p class="home__description">
+						Найдите множество подходящих вам объектов недвижимости очень легко,
+						забудьте обо всех трудностях в поиске подходящего для вас жилья
+					</p>
+					<form action="" class="home__search">
+						<i class='bx bxs-map'></i>
+						<input type="search" placeholder="Поиск по местоположению..." class="home__search-input">
+						<button class="button">Поиск</button>
+					</form>
+					<div class="home__value">
+						<div>
+							<h1 class="home__value-number">
+								9K <span>+</span>
+							</h1>
+							<span class="home__value-description">
+								Премиальных <br> Продуктов
+							</span>
+						</div>
+						<div>
+							<h1 class="home__value-number">
+								2K <span>+</span>
+							</h1>
+							<span class="home__value-description">
+								Счастливых <br> Клиентов
+							</span>
+						</div>
+						<div>
+							<h1 class="home__value-number">
+								28K <span>+</span>
+							</h1>
+							<span class="home__value-description">
+								Награды <br> Победы
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="home__images">
+					<div class="home__orbe"></div>
+					<div class="home__img">
+						<img src="assets/img/home.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="logos section">
+			<div class="logos__container container grid">
+				<div class="logos__img">
+					<img src="assets/img/logo1.png" alt="">
+				</div>
+				<div class="logos__img">
+					<img src="assets/img/logos2.png" alt="">
+				</div>
+				<div class="logos__img">
+					<img src="assets/img/logos3.png" alt="">
+				</div>
+				<div class="logos__img">
+					<img src="assets/img/logo4.png" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="popular section" id="popular">
+			<div class="container">
+				<span class="section__subtitle">Лучший выбор</span>
+				<h2 class="section__title">Популярные резиденции<span>.</span></h2>
+				<div class="popular__container swiper">
+					<div class="swiper-wrapper">
+						<article class="popular__card swiper-slide">
+							<img src="assets/img/popular1.jpg" alt="" class="popular__img">
+							<div class="popular__data">
+								<h2 class="popular__price"><span>$</span>3,636,66</h2>
+								<h3 class=".popular__title">Актив Москва-сити</h3>
+								<p class="popular__description">САО, район Сокол, улица Саврасова #9876</p>
+							</div>
+						</article>
+						<article class="popular__card swiper-slide">
+							<img src="assets/img/popular2.jpg" alt="" class="popular__img">
+							<div class="popular__data">
+								<h2 class="popular__price"><span>$</span>2,565,650</h2>
+								<h3 class=".popular__title">Роскошный дом с Фронтонами</h3>
+								<p class="popular__description">Деревня Шульгино, Рублёвский проезд, 6 #8436</p>
+							</div>
+						</article>
+						<article class="popular__card swiper-slide">
+							<img src="assets/img/popular3.jpg" alt="" class="popular__img">
+							<div class="popular__data">
+								<h2 class="popular__price"><span>$</span>15,520,000</h2>
+								<h3 class=".popular__title">Odintsovo City</h3>
+								<p class="popular__description">Одинцовский городской округ, территория Спортивный клуб Ромашково,
+									Раздоры, Ромашково #15077</p>
+							</div>
+						</article>
+						<article class="popular__card swiper-slide">
+							<img src="assets/img/popular4.jpg" alt="" class="popular__img">
+							<div class="popular__data">
+								<h2 class="popular__price"><span>$</span>35,356,250</h2>
+								<h3 class=".popular__title">Роскошный Городской дом</h3>
+								<p class="popular__description">Улица Достоевского, 19с2 #16514</p>
+							</div>
+						</article>
+						<article class="popular__card swiper-slide">
+							<img src="assets/img/popular5.jpg" alt="" class="popular__img">
+							<div class="popular__data">
+								<h2 class="popular__price"><span>$</span>47,043</h2>
+								<h3 class=".popular__title">Частный дом Авивы</h3>
+								<p class="popular__description">Москва, проезд Досфлота, 16к1 #12583</p>
+							</div>
+						</article>
+					</div>
+					<div class="swiper-button-next">
+						<i class='bx bx-chevron-right'></i>
+					</div>
+					<div class="swiper-button-prev">
+						<i class='bx bx-chevron-left'></i>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="value section" id="value">
+			<div class="value__container container grid">
+				<div class="value__images">
+					<div class="value__orbe">
+					</div>
+					<div class="value__img">
+						<img src="assets/img/value.jpg" alt="">
+					</div>
+				</div>
+				<div class="value__content">
+					<div class="value__data">
+						<span class="section__subtitle">Наши Ценности</span>
+						<h2 class="section__title">
+							Ценность, Которую Мы Даем Вам<span>.</span>
+						</h2>
+						<p class="value__description">Мы всегда готовы помочь, предоставив вам лучший сервис.
+							Мы верим, что хорошее место для жизни может сделать вашу жизнь лучше.</p>
+					</div>
+					<div class="value__accordion">
+						<div class="value__accordion-item">
+							<header class="value__accordion-header">
+								<i class='bx bxs-shield-x value__accordion-icon'></i>
+								<h3 class="value__accordion-title">
+									Лучшие процентные ставки на рынке
+								</h3>
+								<div class="value__accordion-arrow">
+									<i class='bx bxs-down-arrow'></i>
+								</div>
+							</header>
+							<div class="value__accordion-content">
+								<p class="value__accordion-description">
+									Цена, которую мы предоставляем, является лучшей для вас,
+									мы гарантируем отсутствие изменений цен на вашу недвижимость из-за
+									различных непредвиденных расходах, которые могут возникнуть.
+								</p>
+							</div>
+						</div>
+						<div class="value__accordion-item">
+							<header class="value__accordion-header">
+								<i class='bx bxs-x-square value__accordion-icon'></i>
+								<h3 class="value__accordion-title">
+									Предотвращение нестабильных цен
+								</h3>
+								<div class="value__accordion-arrow">
+									<i class='bx bxs-down-arrow'></i>
+								</div>
+							</header>
+							<div class="value__accordion-content">
+								<p class="value__accordion-description">
+									Цена, которую мы предоставляем, является лучшей для вас,
+									мы гарантируем отсутствие изменений цен на вашу недвижимость из-за
+									различных непредвиденных расходах, которые могут возникнуть.
+								</p>
+							</div>
+						</div>
+						<div class="value__accordion-item">
+							<header class="value__accordion-header">
+								<i class='bx bxs-bar-chart-square value__accordion-icon'></i>
+								<h3 class="value__accordion-title">
+									Лучшие цены на рынке
+								</h3>
+								<div class="value__accordion-arrow">
+									<i class='bx bxs-down-arrow'></i>
+								</div>
+							</header>
+							<div class="value__accordion-content">
+								<p class="value__accordion-description">
+									Цена, которую мы предоставляем, является лучшей для вас,
+									мы гарантируем отсутствие изменений цен на вашу недвижимость из-за
+									различных непредвиденных расходах, которые могут возникнуть.
+								</p>
+							</div>
+						</div>
+						<div class="value__accordion-item">
+							<header class="value__accordion-header">
+								<i class='bx bxs-check-square value__accordion-icon'></i>
+								<h3 class="value__accordion-title">
+									Безопасность ваших данных
+								</h3>
+								<div class="value__accordion-arrow">
+									<i class='bx bxs-down-arrow'></i>
+								</div>
+							</header>
+							<div class="value__accordion-content">
+								<p class="value__accordion-description">
+									Цена, которую мы предоставляем, является лучшей для вас,
+									мы гарантируем отсутствие изменений цен на вашу недвижимость из-за
+									различных непредвиденных расходах, которые могут возникнуть.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact section" id="contact">
+			<div class="contact__container container grid">
+				<div class="contact__images">
+					<div class="contact__orbe"></div>
+					<div class="contact__img">
+						<img src="assets/img/contact.png" alt="">
+					</div>
+				</div>
+				<div class="contact__content">
+					<div class="cantact__data">
+						<span class="section__subtitle">Связаться с нами</span>
+						<h2 class="section__title">Легко связаться с нами<span>.</span></h2>
+						<p class="contact__description">
+							Есть ли проблемы с поиском дома вашей мечты? Нужен
+							руководство по покупке первого дома? или вам нужна консультация
+							по жилищным вопросам? просто свяжитесь с нами.
+						</p>
+					</div>
+					<div class="contact__card">
+						<div class="contact__card-box">
+							<div class="contact__card-info">
+								<i class='bx bxs-phone-call'></i>
+								<div>
+									<h3 class="contact__card-title">
+										Телефон
+									</h3>
+									<p class="contact__cars-description">
+										7.999.999.99.99
+									</p>
+								</div>
+							</div>
+							<button class="button contact__card-button">
+								Позвонить сейчас
+							</button>
+						</div>
+						<div class="contact__card-box">
+							<div class="contact__card-info">
+								<i class='bx bxs-message-rounded-dots'></i>
+								<div>
+									<h3 class="contact__card-title">
+										Чат
+									</h3>
+									<p class="contact__cars-description">
+										7.999.999.99.99
+									</p>
+								</div>
+							</div>
+							<button class="button contact__card-button">
+								Написать в чат
+							</button>
+						</div>
+						<div class="contact__card-box">
+							<div class="contact__card-info">
+								<i class='bx bxs-video'></i>
+								<div>
+									<h3 class="contact__card-title">
+										Видео вызов
+									</h3>
+									<p class="contact__cars-description">
+										7.999.999.99.99
+									</p>
+								</div>
+							</div>
+							<button class="button contact__card-button">
+								Позвонить
+							</button>
+						</div>
+						<div class="contact__card-box">
+							<div class="contact__card-info">
+								<i class='bx bxs-envelope'></i>
+								<div>
+									<h3 class="contact__card-title">
+										Почта
+									</h3>
+									<p class="contact__cars-description">
+										Test@gmail.com
+									</p>
+								</div>
+							</div>
+							<button class="button contact__card-button">
+								Написать сейчас
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="subscribe section">
+			<div class="subscribe__container container">
+				<h1 class="subscribe__title">Начните работу с GetHome</h1>
+				<p class="subscribe__description">
+					Подпишитесь и найдите супер привлекательную цену
+					цитаты от нас, Найдите свое место жительства в ближайшее время
+				</p>
+				<a href="#" class="button subscribe__button">Начать</a>
+			</div>
+		</section>
+	</main>
+	<footer class="footer section">
+		<div class="footer__container container grid">
+			<div>
+				<a href="#" class="footer__logo">GetHome <i class='bx bxs-home-alt-2'></i></a>
+				<p class="footer__description">
+					Наше цель состоит в том, <br>чтобы найти <br>
+					лучшее место для жизни.
+				</p>
+			</div>
+			<div class="footer__content">
+				<div>
+					<h3 class="footer__title">
+						Общее
+					</h3>
+					<ul class="footer__links">
+						<li>
+							<a href="" class="footer__link">О нас</a>
+						</li>
+						<li>
+							<a href="" class="footer__link">Особенности</a>
+						</li>
+						<li>
+							<a href="" class="footer__link">Новости и Блог</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="footer__title">
+						Компания
+					</h3>
+					<ul class="footer__links">
+						<li>
+							<a href="" class="footer__link">Как Мы Работаем?</a>
+						</li>
+						<li>
+							<a href="" class="footer__link">Капитал</a>
+						</li>
+						<li>
+							<a href="" class="footer__link">Безопасность</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="footer__title">
+						Поддержка
+					</h3>
+					<ul class="footer__links">
+						<li>
+							<a href="" class="footer__link">Часто задаваемые вопросы</a>
+						</li>
+						<li>
+							<a href="" class="footer__link">Центр поддержки</a>
+						</li>
+						<li>
+							<a href="" class="footer__link">Связаться с нами</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="footer__title">
+						Следуйте за нами
+					</h3>
+					<ul class="footer__social">
+						<a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+							<i class='bx bxl-facebook-circle'></i>
+						</a>
+						<a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+							<i class='bx bxl-instagram-alt'></i>
+						</a>
+						<a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+							<i class='bx bxl-pinterest'></i>
+						</a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer__info container">
+			<span class="footer__copy">
+				&#169; VladislavWebDev. Все права защищены
+			</span>
+			<div class="footer__privacy">
+				<a href="#">Условия и Соглашения</a>
+				<a href="#">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+	<a href="#" class="scrollup" id="scroll-up"><i class='bx bxs-chevrons-up'></i></a>
+	<script src="assets/js/scrollreveal.min.js"></script>
+	<script src="assets/js/swiper-bundle.min.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
